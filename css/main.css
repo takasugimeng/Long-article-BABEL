@@ -3,8 +3,17 @@
  * ======================================== */
 
 .grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 25px;
-  background-color: gold;
+  background-color: #fbf1a9;
+}
+
+@media (min-width: 600px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+  }
+}
+
+.last-image {
+  width: 600px;
 }
